@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    margin: 10px;
+
+}
+.container{
+   display: grid;
+        background-image:
+          linear-gradient(45deg, #282525 25%, transparent 25%), 
+          linear-gradient(135deg, #232020 25%, transparent 25%),
+          linear-gradient(45deg, transparent 75%, #232020 75%),
+          linear-gradient(135deg, transparent 75%, #242121 75%);
+        background-size:25px 25px; /* Must be a square */
+        background-position:0 0, 12.5px 0, 12.5px -12.5px, 0px 12.5px; /* Must be half of one side of the square */
+    padding: 10px;
+}
+h1{
+    color: rgb(105, 29, 97);
+    font-family:Snell Roundhand, cursive;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px white, 1px 0 2px pink, 0 0 5px rgb(48, 15, 46);
+}
+p{
+    color: rgb(181, 123, 162);
+    font-family:Chalkduster, fantasy;
+}
+img{
+   height: 60%;
+   width: 25%;
+   margin-left:36%;
+   margin-top: 5%;
+}
+h3{
+    color: rgb(195, 149, 184),;
+}
+.shadow{
+    
+    color: rgb(204, 24, 120);
+    text-shadow: 2px 2px 6px rgb(63, 13, 53), 2px 2px 10px rgb(205, 131, 193), 3px 3px 5px rgb(48, 15, 46);
+}
+li{
+    background-color: pink;
+    border-radius: 50px;
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+    
+}
